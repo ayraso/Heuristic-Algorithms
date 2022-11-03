@@ -13,7 +13,7 @@ def uniform_crossover(individualLength, parent1, parent2):
 
     bit_list = [0,1]
     
-    # Generating mask list as random.
+    # Generating mask list as random
     mask=random.choices(bit_list, weights=[1,1], k=individualLength)
     
     offspring1=parent1
